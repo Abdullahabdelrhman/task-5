@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>واجهة طلب الطعام</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/./c.css"> 
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="left-bar flex-col flex-center">
+        <div class="icon"><a href="#"><i class="fa-solid fa-book"></i></a></div>
+        <div class="icon active"><i class="fa-solid fa-user"></i></div>
+        <div class="icon"><i class="fa-solid fa-wallet"></i></div>
+        <div class="icon"><i class="fa-solid fa-gear"></i></div>
+        <div class="icon bottom"><i class="fa-solid fa-envelope"></i></div>
+        <div class="icon"><i class="fa-solid fa-message"></i></div>
+    </div>
+
+    <div class="main">
+        
+        <header class="head">
+            <div class="welcome">
+                <h1>Hello John</h1>
+                <p>Welcome Back</p>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </header>
+        
+        <div class="banner">
+            <div class="banner-text">
+       
+                <h2>Make Your First Order and **fayza 50% Off**</h2>
+                <p>Lorem ipsum placeholder text for design demonstration.</p>
+                <button class="btn-order">Order Now</button>
+            </div>
+            <div class="banner-img">
+                <img src="./imges/f0d0b09f92238aca7a81306ecf1176a683952430.png" alt="بيتزا كبيرة للعرض"> 
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu-head">
+                <h3>Our Menu</h3>
+                <a href="#">See All</a>
+            </div>
+            
+            <div class="cats">
+                <span class="cat active">Pizza</span>
+                <span class="cat">Fries</span>
+                <span class="cat">Pack</span>
+                <a href="#" class="cat-all">See All</a>
+            </div>
+
+            <div class="products">
+                <div class="prod">
+                    <div class="prod-img">
+                        <img src="./imges/f0d0b09f92238aca7a81306ecf1176a683952430.png" alt="Pizza with Peperoni">
+                    </div>
+                    <div class="prod-info">
+                        <h3 class="prod-title">Pizza with Peperoni</h3>
+                        <p class="prod-time">4-20 minutes</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">$12</span>
+                            <button class="btn-add">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prod">
+                    <div class="prod-img">
+                        <img src="./imges/e48bc9360a882b65f6c7d848c3671b1092f1f883.png" alt="Pizza with Cheese">
+                    </div>
+                    <div class="prod-info">
+                        <h3 class="prod-title">Pizza with Cheese</h3>
+                        <p class="prod-time">16-25 minutes</p>
+                        <div class="prod-footer">
+                            <span class="prod-price">$14</span>
+                            <button class="btn-add">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-bar">
+        
+        <div class="profile">
+            <img src="./imges/fdb7ff7baf4338489fb8d6179850d7279522793c.jpg" alt="John Smith" class="pic">
+            <span>John Smith</span>
+            <button class="btn-notif"><i class="fa-solid fa-bell"></i></button>
+        </div>
+
+        <div class="card">
+            <p>Universal Card</p>
+            <div class="card-num">5214 4587 9658 1452</div>
+            <p>John Smith <span class="exp">12/24</span></p>
+        </div>
+
+        <div class="order-list">
+            <div class="order-head">
+                <h3>Order Menu</h3>
+                <a href="#">See All</a>
+            </div>
+            
+            <div class="order-item">
+                <img src="./imges/8135bee9009473d88cd7bc0f306d327540a54932.png" alt="Pizza with Mushrooms">
+                <div class="item-info">
+                    <p class="item-name">Pizza with Mushrooms</p>
+                    <p class="item-price">$12</p>
+                </div>
+                <div class="item-qty">
+                    <button class="qty-btn">-</button>
+                    <span>01</span>
+                    <button class="qty-btn">+</button>
+                </div>
+            </div>
+
+            <div class="order-item">
+                <img src="./imges/47515dfdbeefb1a2c6c815392e9dd3fa7e04958d.png" alt="Meat with Potato">
+                <div class="item-info">
+                    <p class="item-name">Meat with Potato</p>
+                    <p class="item-price">$40</p>
+                </div>
+                <div class="item-qty">
+                    <button class="qty-btn">-</button>
+                    <span>01</span>
+                    <button class="qty-btn">+</button>
+                </div>
+            </div>
+
+            <div class="total">
+                <p>Total Price</p>
+                <span class="total-amt">$52.00</span>
+            </div>
+
+            <button class="btn-checkout">Checkout</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
